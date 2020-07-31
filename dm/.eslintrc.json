@@ -22,7 +22,7 @@
 		"constructor-super": "warn",
 		"valid-typeof": "warn",
 		"semi": ["error", "never"],
-		"indent": ["error", 2, { 
+		"indent": ["error", 4, { 
 			"SwitchCase": 1, 
 			"VariableDeclarator": "first",
 			"ArrayExpression": "first",
@@ -30,6 +30,8 @@
 			"ImportDeclaration": "first"
 		}],
 		"no-multi-spaces": "error",
-		"no-trailing-spaces": "error"
+		"no-trailing-spaces": "error",
+		"no-var": "warn",
+		"prefer-const": "warn"
 	}
 }
